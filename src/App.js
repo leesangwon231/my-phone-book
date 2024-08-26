@@ -5,8 +5,6 @@ import {useState} from "react";
 
 function App() {
 
-    const [phoneData,setPhoneData] = useState([]);
-
     return (
     <div className="App">
         <h1>My Phone Book</h1>
