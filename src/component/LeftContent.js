@@ -6,7 +6,7 @@ const LeftContent = () => {
     const dispatcher = useDispatch();
     const imagesUrl = [
         "https://tse1.mm.bing.net/th?id=OIP.__u1-HktWFqyC5dUviL1uwHaHa&pid=Api&P=0&h=220",
-        "https://i.namu.wiki/i/FSs6sRr9Qil-29enzrEUqYcBtk3HJQ1lPN-52nzwLbVrMZpV-hv3D5yaBzQa9btVJbxz4W--rMJgi38XVdHFBA.webp",
+        "https://soopool.art/img/infoac/NPC/Tom_Nook/Tom_Nook_acaf2.png",
         "https://i.namu.wiki/i/YEXFA_C4IHm3Va4CozKQ3neSw1PGcEAzxSTJuUk5pou8VFwLev6MhHhCQQoTjpqo5QJZ7aLb2vt573aBmeYNhHSiUHBgTLgzIAPQpPku2AG5wrei4uxIuPgKuuEyjuQe3anzM9kvr_x-h7m8mKYd_Q.webp",
         "https://i.namu.wiki/i/KCB8bNfg1b4hpGbhirLA3TuYcev4Fo_oXRMS5VkMoBrAIAPidyyj4mAuZxhIa1TTnMAdwCJhLpGp7CCaWI9HXjsgX2tc1o7ELl24gtLicy_rXi3tfaDvOqo0hd65vhB4Qrv_e-U-8eTcvytx9YdV1w.webp",
         "https://i.namu.wiki/i/eQRh_QCaVMM0HXR1lJ2ojdesFjrGe4RFX3GHps7bwQqNXcFFdxxFnMM9QKtbk2ExdcFR_yQAIEKaitdnHZQm6VfFP-Ct9UjbC9eIJhkz9V6cCr9KSl2QEAK3RnFVV0y103W2ioqIePVINBKGbjqN4g.webp",
