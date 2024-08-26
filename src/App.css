@@ -95,7 +95,17 @@ html , body {
         margin-top: 40px;
         border-radius: 20px;
         font-family: UhBeecharming, serif ;
+        background-color:rgba(11, 218, 111, 1) ;
+        color: white;
+        border : white 1px solid;
+        cursor: pointer;
+    }
 
+    .left-content > form > button:hover{
+        color: rgba(11, 218, 111, 1) ;
+        border : rgba(11, 218, 111, 1) 1px solid;
+        background-color: white;
+        transition: 0.5s;
     }
 
 
@@ -240,6 +250,7 @@ html , body {
         margin-top: 10px;
         outline: none;
         font-family: UhBeecharming, serif ;
+
     }
 
     .left-content > form > button{
@@ -248,6 +259,17 @@ html , body {
         border-radius: 10px;
         margin-top: 40px;
         font-family: UhBeecharming, serif ;
+        background-color:rgba(11, 218, 111, 1) ;
+        color: white;
+        border : white 1px solid;
+        cursor: pointer;
+    }
+
+    .left-content > form > button:hover{
+        color: rgba(11, 218, 111, 1) ;
+        border : rgba(11, 218, 111, 1) 1px solid;
+        background-color: white;
+        transition: 0.5s;
     }
 
 
@@ -406,8 +428,18 @@ html , body {
         border-radius: 10px;
         margin-top: 40px;
         font-family: UhBeecharming, serif ;
+        background-color:rgba(11, 218, 111, 1) ;
+        color: white;
+        border : white 1px solid;
+        cursor: pointer;
     }
 
+    .left-content > form > button:hover{
+        color: rgba(11, 218, 111, 1) ;
+        border : rgba(11, 218, 111, 1) 1px solid;
+        background-color: white;
+        transition: 0.5s;
+    }
 
 
 
@@ -566,9 +598,18 @@ html , body {
         border-radius: 10px;
         margin-top: 40px;
         font-family: UhBeecharming, serif ;
+        background-color:rgba(11, 218, 111, 1) ;
+        color: white;
+        border : white 1px solid;
+        cursor: pointer;
     }
 
-
+    .left-content > form > button:hover{
+        color: rgba(11, 218, 111, 1) ;
+        border : rgba(11, 218, 111, 1) 1px solid;
+        background-color: white;
+        transition: 0.5s;
+    }
 
 
     /*right Container*/

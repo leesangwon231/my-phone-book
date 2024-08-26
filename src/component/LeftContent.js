@@ -4,7 +4,14 @@ import {useDispatch} from "react-redux";
 const LeftContent = () => {
 
     const dispatcher = useDispatch();
-
+    const imagesUrl = [
+        "none",
+        "",
+        "",
+        "",
+        "",
+        "",
+    ];
 
 
     const onClickSubmitButton = (event) => {
