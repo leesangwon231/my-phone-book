@@ -109,6 +109,21 @@ html , body {
     }
 
 
+    .left-content > form > .images-area{
+        display: flex;
+        content: " ";
+        width: 100%;
+        height: 250px;
+        flex-wrap: wrap;
+        gap: 10px;
+
+    }
+
+    .left-content > form > .images-area > .select-image{
+        width: calc(33% - 10px);
+        border: 15px;
+    }
+
 
 
     /*right Container*/
@@ -155,11 +170,11 @@ html , body {
 
     .icon-img{
         width: 100px;
-        height: 100px;
+        height: 160px;
     }
 
     .phoneCard > span{
-        margin-top: 50px;
+        margin-top: 30px;
         font-family: UhBeecharming, serif ;
     }
 
@@ -241,6 +256,7 @@ html , body {
         text-align: start;
         margin-top: 20px;
         font-family: UhBeecharming, serif ;
+        width: 100%;
     }
 
     .left-content > form > input{
@@ -249,20 +265,22 @@ html , body {
         border-radius: 10px;
         margin-top: 10px;
         outline: none;
+        width: 100%;
         font-family: UhBeecharming, serif ;
 
     }
 
     .left-content > form > button{
-        width: 500px;
         height: 30px;
         border-radius: 10px;
         margin-top: 40px;
+        margin-bottom: 20px;
         font-family: UhBeecharming, serif ;
         background-color:rgba(11, 218, 111, 1) ;
         color: white;
         border : white 1px solid;
         cursor: pointer;
+        width: 100%;
     }
 
     .left-content > form > button:hover{
@@ -272,6 +290,23 @@ html , body {
         transition: 0.5s;
     }
 
+    .left-content > form > .images-area{
+        display: flex;
+        content: " ";
+        width: 100%;
+        height: 110px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+
+    }
+
+    .left-content > form > .images-area > .select-image{
+        width: 100px;
+        height: 100px;
+        border: 15px;
+    }
 
 
 
@@ -322,7 +357,7 @@ html , body {
 
     .icon-img{
         width: 50px;
-        height: 50px;
+        height: 70px;
     }
 
     .phoneCard > span{
@@ -432,6 +467,7 @@ html , body {
         color: white;
         border : white 1px solid;
         cursor: pointer;
+        margin-bottom: 10px;
     }
 
     .left-content > form > button:hover{
@@ -439,6 +475,23 @@ html , body {
         border : rgba(11, 218, 111, 1) 1px solid;
         background-color: white;
         transition: 0.5s;
+    }
+
+    .left-content > form > .images-area{
+        display: flex;
+        content: " ";
+        height: 60px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+
+    }
+
+    .left-content > form > .images-area > .select-image{
+        width: 45px;
+        height: 50px;
+        border: 15px;
     }
 
 
@@ -490,7 +543,7 @@ html , body {
 
     .icon-img{
         width: 50px;
-        height: 50px;
+        height: 70px;
     }
 
     .phoneCard > span{
@@ -602,6 +655,7 @@ html , body {
         color: white;
         border : white 1px solid;
         cursor: pointer;
+        margin-bottom: 10px;
     }
 
     .left-content > form > button:hover{
@@ -659,7 +713,7 @@ html , body {
 
     .icon-img{
         width: 50px;
-        height: 50px;
+        height: 70px;
     }
 
     .phoneCard > span{
@@ -702,6 +756,24 @@ html , body {
         outline: none;
         font-family: UhBeecharming, serif ;
     }
+
+    .left-content > form > .images-area{
+        display: flex;
+        content: " ";
+        height: 60px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+
+    }
+
+    .left-content > form > .images-area > .select-image{
+        width: 45px;
+        height: 60px;
+        border: 15px;
+    }
+
 
 }
 

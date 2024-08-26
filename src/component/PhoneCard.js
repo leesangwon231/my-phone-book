@@ -6,7 +6,11 @@ const PhoneCard = ({data}) => {
 
   return (
       <div className={"phoneCard"}>
-          <FontAwesomeIcon icon={faUser} className={"icon-img"}/>
+          <div className={"icon-img"} style={{
+              backgroundImage : `url(${data.image})` ,
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'center',
+              backgroundSize: 'cover'}}> </div>
           <span>이름 : {data.name}</span>
           <div className={"hovering-number"}><span>전화번호 : {data.number}</span></div>
       </div>
