@@ -577,9 +577,35 @@ html , body {
 
 
     .hovering-number{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        background-color: black;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        border-radius: 10px;
         font-size: 10px;
     }
 
+    .hovering-number:hover{
+        opacity: 1;
+        transition: opacity 0.5s;
+        color: white;
+    }
+
+    .search-area{
+        display: flex;
+        justify-content: end;
+        margin: 20px;
+        gap: 5px;
+    }
+
+    .search-area > input{
+        outline: none;
+    }
 
 }
 
