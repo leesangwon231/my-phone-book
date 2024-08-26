@@ -5,6 +5,8 @@ const LeftContent = () => {
 
     const dispatcher = useDispatch();
 
+
+
     const onClickSubmitButton = (event) => {
         event.preventDefault();
         const phoneNumberPattern = /^\d{3}-\d{3,4}-\d{4}$/;
@@ -24,7 +26,7 @@ const LeftContent = () => {
               <input type={"text"} placeholder={"이름을 입력해 주세요"}/>
               <span>전화번호</span>
               <input type={"text"} placeholder={"010-0000-0000 형식을 맞춰서 입력해주세요"}/>
-              <button type={"submit"}>클릭</button>
+              <button type={"submit"}>추가</button>
           </form>
       </div>
   );
