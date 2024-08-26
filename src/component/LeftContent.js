@@ -21,9 +21,9 @@ const LeftContent = () => {
       <div className={"left-content"}>
           <form onSubmit={onClickSubmitButton}>
               <span>이름</span>
-              <input type={"text"}/>
+              <input type={"text"} placeholder={"이름을 입력해 주세요"}/>
               <span>전화번호</span>
-              <input type={"text"}/>
+              <input type={"text"} placeholder={"010-0000-0000 형식을 맞춰서 입력해주세요"}/>
               <button type={"submit"}>클릭</button>
           </form>
       </div>
